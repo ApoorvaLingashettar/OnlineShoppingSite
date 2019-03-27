@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Exam_ShoppingCart_Practise</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Exam_ShoppingCart_Practise</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Customer.vb">Customer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Page1.aspx">Page1.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Page1.aspx.vb">Page1.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Practise.master">Practise.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Practise.master.vb">Practise.master.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SussesfulLogin.aspx">SussesfulLogin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SussesfulLogin.aspx.vb">SussesfulLogin.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="welcomePage.aspx">welcomePage.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="welcomePage.aspx.vb">welcomePage.aspx.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
